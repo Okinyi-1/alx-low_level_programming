@@ -2,7 +2,7 @@
 
 
 /**
- * main - print to screen          *
+ * main - print to screen 
  *
  *
  * Return: 0
