@@ -1,14 +1,16 @@
 #include "main.h"
 
 /**
- *  *  * _putchar - prints to stout
- *   *   *
- *    *    * Return; Always 0 (Sucess)
- *     *     */
-int main(void)
+ *  * print_alphabet - Make the alphabet
+ *   * Return: void
+ *    */
+void print_alphabet(void)
 {
-        putchar('a');
-	putchar('\n');
+		char c;
 
-	return (0);
+			for (c = 'a'; c <= 'z'; c++)
+					{
+								_putchar(c);
+									}
+				_putchar('\n');
 }
